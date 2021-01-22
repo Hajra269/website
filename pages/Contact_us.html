@@ -1,0 +1,76 @@
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="../css/all.min.css">
+<link rel="stylesheet" href="../css/style_sheet.css">
+</head>
+
+<body>
+<div id="container">
+<div id ="header">
+    <div id ="logo" style="margin-left:5%; margin-top:1%;"><a href="../Home_page.html"><img src="../pics/Bit.png" style="height:100%; width:100%;"></a>
+    </div>
+   <h1 style="margin-top:1px; padding-top:20px;"><center>Bitrupt Trainee Website</center></h1>
+</div>
+<div id="side_bar" onclick = "openSideBar()">
+     <ul>
+     <li><a href = "../Home_page.html" style="color:black; text-decoration: none;">Home</a></li>
+     <li><a href = "Profile.html" style="color:black; text-decoration: none;">Profile</a></li>
+     <li><a href = "About_us.html" style="color:black; text-decoration: none;">About us</a></li>
+     <li><a href = "Contact_us.html" style="color:black; text-decoration: none;">Contact us</a></li>
+     <li style = "margin-top:150px;"><a href= "index.html" style="color:black; text-decoration: none;">log out</a></li>
+    </ul>
+</div>
+<div id="side_bar2" onclick = "closeSideBar()">
+<ul>
+<li><a href= "Home_page.html" id="link" style="color:black; text-decoration: none;"><i class="fas fa-home"></i></li>
+<li><a href= "pages/Profile.html" id="link"style="color:black; text-decoration: none;"><i class="fas fa-user"></i></li>
+<li><a href= "pages/About_us.html" id="link" style="color:black; text-decoration: none;"><i class="fas fa-users"></i></li>
+<li><a href= "pages/Contact_us.html" id="link" style="color:black; text-decoration: none;"><i class="fas fa-envelope"></i></li>
+<li style="margin-top:150px;">
+<a href= "pages/index.html"  id="link" style="color:black; text-decoration: none;"><i class="fas fa-sign-out-alt"></i></li>
+</ul>
+</div>
+<div id ="body_container">
+<div id ="text_area">
+	<ul>
+	<li><form name="form1" onsubmit = "ContactValidatation(document.form1.email,document.form1.name)">
+	<center><label for="fname">First Name:</label>
+	<input type="text"  name="name" placeholder="Your name.." style="width:68%;" ></input><br><br>
+	</li></center>
+	
+	<li><label>Email:</label>
+	<input type="text"  id ="email" name="email" placeholder="Your email" style="width:70%; margin-left:10%;" ></input>
+	</li>
+	
+	<li><label>Country:</label>
+	<select placeholder="country" id ="country" name="country" style="width:69%; color:black; margin-left:7%;">
+	<option>Pakistan</option>
+	<option>America</option>
+	<option>China</option>
+	<option>UAE</option>
+	<option>Pakistan</option>
+	</select></li>
+	
+	
+	<li><label for="fname">Subject:</label>
+	<input type="text" id="subject" name="message" placeholder="subject" style="width:70%; margin-left:5%;"></input></li>
+	
+	<li style="height:29%;"><label style="margin-right:65%; margin-left:3%;">Your message: </label><br>
+  <textarea placeholder="Write something ..." id="msg" style="width:70%; margin-right:50%; margin-left:3%; margin-top:2%;  height:70%;" rows="7" cols="50" ></textarea>
+  
+	<input type="Submit" value="Submit" style="margin-right:100%; margin-left:0.15%; margin-top:7%;"></input>
+	</ul>
+	</form>
+	</div>
+	
+<div id ="pic_area">
+<iframe width="470" height="457"  src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d57898.72897824444!2d67.03528671899603!3d24.909216459847016!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x3eb33f5a70a8370f%3A0x71747af0780cf74f!2sBitrupt%2C%20Goth%20Baluch%2C%20Azam%20Khan%20Rd%2C%20Block%2013D-3%20Block%2013%20D%203%20Gulshan-e-Iqbal%2C%20Karachi%2C%20Karachi%20City%2C%20Sindh%2C%20Pakistan!3m2!1d24.9091427!2d67.07030639999999!5e0!3m2!1sen!2s!4v1605517853780!5m2!1sen!2s" ></iframe>
+</div>
+
+
+</div>
+<script src="script.js"></script>
+</body>
+</html>

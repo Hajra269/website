@@ -1,0 +1,117 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="../css/all.min.css">
+<link rel="stylesheet" href="../css/style_sheet.css">
+<style>
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  border: 1px solid #dddddd;
+}
+
+td, th {
+  border: 1px solid black;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+</style>
+</head>
+<body>
+<div id="container">
+<div id ="header">
+<div id ="logo" style="margin-left:5%; margin-top:1%;"><a href="../Home_page.html"><img src="../pics/Bit.png" style="height:100%; width:100%;"></a>
+</div>
+<h1 style="margin-top:1px; padding-top:20px;"><center>Bitrupt Trainee Website</center></h1>
+</div>
+<div id="side_bar" onclick = "openSideBar()">
+<ul>
+<li><a href= "../Home_page.html" style="color:black; text-decoration: none;">Home</a></li>
+<li><a href= "Profile.html" style="color:black; text-decoration: none;">Profile</a></li>
+<li><a href= "About_us.html" style="color:black; text-decoration: none;">About us</a></li>
+<li><a href= "Contact_us.html" style="color:black; text-decoration: none;">Contact us</a></li>
+<li style="margin-top:150px;"><a href= "index.html" style="color:black; text-decoration: none;">log out</a></li>
+</ul>
+</div>
+<div id="side_bar2" onclick = "closeSideBar()">
+<ul>
+<li><a href= "Home_page.html" id="link" style="color:black; text-decoration: none;"><i class="fas fa-home"></i></li>
+<li><a href= "pages/Profile.html" id="link"style="color:black; text-decoration: none;"><i class="fas fa-user"></i></li>
+<li><a href= "pages/About_us.html" id="link" style="color:black; text-decoration: none;"><i class="fas fa-users"></i></li>
+<li><a href= "pages/Contact_us.html" id="link" style="color:black; text-decoration: none;"><i class="fas fa-envelope"></i></li>
+<li style="margin-top:150px;">
+<a href= "pages/index.html"  id="link" style="color:black; text-decoration: none;"><i class="fas fa-sign-out-alt"></i></li>
+</ul>
+</div>
+<div id ="body_container">
+<div id ="text_area" style="width:90%; margin-right:20px; height:91%">
+<table style="margin-left:2%; width:95%; height:90%; Border:1px solid black; border-collapse:collapse; margin-top:2%;">
+<tr><td td colspan="3" style="background-color: #dddddd;"><center><b>TRAINEE PROGRAM</b></center></td></tr> 
+<tr>
+    
+    <th><center>Tasks</center></th>
+    <th><center>Description</center></th>
+    <th><center>Status</center></th>
+  </tr>
+  <tr>
+  <td><center>Tasks 1</center></td>
+    <td><center>Home Page</center></td>
+    <td><center>Done</center></td>
+	</tr>
+  <tr>
+    <td><center>Task 2</center></td>
+    <td><center>Contact Us Page</center></td>
+    <td><center>Done</center></td>
+  </tr>
+  <tr>
+    <td><center>Task 3</center></td>
+    <td><center>Form validation through javascript</center></td>
+    <td><center>Incompleted</center></td>
+  </tr>
+  <tr>
+    <td><center>Task 4</center></td>
+    <td><center>Routing to different locations on click</center></td>
+    <td><center>Done</center></td>
+  </tr>
+  <tr>
+    <td><center>Task 5</center></td>
+    <td><center>About Us Page</center></td>
+    <td><center>Done</center></td>
+  </tr>
+  <tr>
+    <td><center>Task 6</center></td>
+    <td><center>Collapsable Drawer</center></td>
+    <td><center>Incompleted</center></td>
+  </tr>
+  <tr>
+    <td><center>Task 7</center></td>
+    <td><center>Profile Page</center></td>
+    <td><center>In Progress</center></td>
+  </tr>
+  <tr>
+    <td><center>Task 8</center></td>
+    <td><center>Will be viewed after completion of previous course</center></td>
+    <td><center>Pending</center></td>
+  </tr>
+  <tr>
+    <td><center>Task 9</center></td>
+    <td><center>Will be viewed after completion of previous course</center></td>
+    <td><center>Pending</center></td>
+  </tr>
+  <tr>
+    <td><center>Task 10</center></td>
+    <td><center>Will be viewed after completion of previous course</center></td>
+    <td><center>Pending</center></td>
+  </tr>
+</table>
+
+</div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
